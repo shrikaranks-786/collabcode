@@ -64,7 +64,7 @@ footer a{
   margin-bottom: 20px;
 }
 
-.joinbtn:hover{
+.joinbtn:hover,.leavebtn:hover{
   background: #2b824c;
 }
 
@@ -82,4 +82,46 @@ footer a{
 .createnewbtn:hover{
   color: #2b824c;
   border-color: #2b824c;
+}
+
+.mainwrap{
+  display: grid;
+  grid-template-columns: 230px 1fr;
+  height: 100vh;
+}
+
+.aside{
+  background: #1c1e29;
+  padding: 16px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.asideinner{
+  flex: 1;
+}
+
+.clientslist{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.client{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-weight: bold;
+}
+
+.username{
+  margin-top: 10px;
+}
+
+.leavebtn{
+  width: 100%;
+  margin-top: 20px;
+  background: #4aee88;
 }
